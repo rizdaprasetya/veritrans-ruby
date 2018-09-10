@@ -85,6 +85,7 @@ class Veritrans
       request_options = {
         :path => URI.parse(url).path,
         :headers => {
+          :host => URI.parse(url).host,
           :Authorization => auth_header || basic_auth_header(config.server_key),
           :Accept => "application/json",
           :"Content-Type" => "application/json",
