@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    veritrans (2.2.1)
+    veritrans (2.2.2)
       excon (~> 0.20)
 
 GEM

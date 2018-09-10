@@ -1,3 +1,8 @@
+### Version 2.2.2 (date 10 Sep 2018)
+
+* Fix Snap production API sometimes return 404 response if `host` HTTP
+header is not present, by adding `host` HTTP header on HTTP request.
+
 ### Version 2.2.1 (date 30 May 2018)
 
 * Update assertion message value
